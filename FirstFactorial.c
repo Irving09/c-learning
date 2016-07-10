@@ -12,14 +12,14 @@
 
 int FirstFactorial(int);
 
-int main() {
+/*int main() {
     int res = FirstFactorial(0);
 
     barline();
     printf("%d", res);
     newline();
     barline();
-}
+}*/
 
 int FirstFactorial(int num) {
     int result = 1;
