@@ -12,5 +12,7 @@ typedef int boolean;
 void barline();
 void newline();
 void append(char*, char);
+int indexOfStr(const char*, char);
+void println(const char*, ...);
 
 #endif //C_LEARNING_UTILS_H

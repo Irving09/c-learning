@@ -14,19 +14,19 @@
  * Ignore punctuation and assume sen will not be empty.*/
 void LongestWord(const char*);
 
-int main() {
-    const char* input = "ciao konnichiwa hello hiarigatougozaimasu";
-
-    LongestWord(input);
-    return 0;
-}
+//int main() {
+//    const char* input = "ciao konnichiwa hello hiarigatougozaimasu hi hello . sdfsdf. sdfsdf hiarigatougozaimasusdjklfhslfjsdf";
+//
+//    LongestWord(input);
+//    return 0;
+//}
 
 void LongestWord(const char* string) {
     size_t length = strlen(string);
     int i;
 
-    char* longest = malloc(length);
-    char* parsed = malloc(length);
+    char* longest = malloc(length * sizeof(char));
+    char* parsed = malloc(length * sizeof(char));
     char currentChar;
 
     for (i = 0; i <= length; i++) {
