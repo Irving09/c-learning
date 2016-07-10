@@ -29,12 +29,12 @@
 
 void LetterChanges(const char*);
 
-int main() {
-    const char* input = "fun times!";
-
-    LetterChanges(input);
-    return 0;
-}
+//int main() {
+//    const char* input = "fun times!";
+//
+//    LetterChanges(input);
+//    return 0;
+//}
 
 void LetterChanges(const char* input) {
     const char alphabet[26] = { 'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z' };
