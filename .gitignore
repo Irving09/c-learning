@@ -84,3 +84,4 @@ fabric.properties
 .idea/modules.xml
 CMakeLists.txt
 main.cpp
+all
